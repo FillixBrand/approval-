@@ -496,7 +496,7 @@ def apv():
         else:
             print("\033[1;91m[+] Your Token\033[1;37m: \033[1;32m"+key)
             print("\033[1;37m[=] press enter to approval your key! ")
-            subprocess.check_output(["am", "start", "https://api.whatsapp.com/send?phone=+&text="+ key]);time.sleep(1)
+            subprocess.check_output(["am", "start", "https://api.whatsapp.com/send?phone=+923172575010&text="+ key]);time.sleep(1)
             sys.exit()
     except requests.exceptions.ConnectionError:
         print("[Ã] Internet Connection Error")
